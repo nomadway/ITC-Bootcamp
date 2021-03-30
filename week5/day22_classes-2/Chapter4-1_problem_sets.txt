@@ -1,0 +1,228 @@
+Chapter 4
+﻿
+
+1)Student
+Создайте класс Student, конструктор которого имеет параметры name, lastname,
+
+department, year_of_entrance. Добавьте метод get_student_info, который
+
+возвращает имя, фамилию, год поступления и факультет в
+
+отформатированном виде: “Вася Иванов поступил в 2017 г. на факультет:
+
+Программирование.”
+
+﻿
+
+2)Airplane
+Создайте новый класс Airplane. Создайте следующие характеристики (полей)
+
+объекAта:
+
+● make (марка)
+
+● model
+
+● year
+
+● max_speed
+
+● odometer
+
+● is_flying
+
+﻿
+
+и методы имитирующих поведение самолета take off (взлет), fly (летать), land
+
+приземление). Метод take off должен изменить is_flying на True, а land на False. По
+
+умолчанию поле is_flying = False. Метод fly должен принимать расстояние полета и
+
+изменять показания одометра (километраж). Создайте 1 объект класса и используйте
+
+все методы класса.
+
+﻿
+
+3)Car
+Создайте класс Car. Пропишите в конструкторе параметры make, model, year,
+
+odometer, fuel. Пусть у показателя odometer будет первоначальное значение 0,
+
+а у fuel 70. Добавьте метод drive, который будет принимать расстояние в км. В
+
+самом начале проверьте, хватит ли вам бензина из расчета того, что машина
+
+расходует 10 л / 100 км (1л - 10 км) . Если его хватит на введенное расстояние,
+
+то пусть этот метод добавляет эти километры к значению одометра, но не
+
+напрямую, а с помощью приватного метода __add_distance. Помимо этого
+
+пусть метод drive также отнимет потраченное количество бензина с помощью
+
+приватного метода __subtract_fuel, затем пусть распечатает на экран “Let’s
+
+drive!”. Если же бензина не хватит, то распечатайте “Need more fuel, please, fill
+
+more!”
+
+4)ContactList
+Создайте класс ContactList, который должен наследоваться от
+
+встроенного класса list. В нем должен быть реализован метод
+
+search_by_name, который должен принимать имя, и возвращать список
+
+всех совпадений. Замените all_contacts = [ ] на all_contacts =
+
+ContactList(). Создайте несколько контактов, используйте метод
+
+search_by_name.
+
+﻿
+
+﻿
+
+5)AK-47
+Soldier Ryan has an AK47
+Soldiers can fire ("tigi-tigitishh").
+Guns can fire bullets.
+Guns can fill bullets - increase the number of bullets(reloads)
+﻿
+
+﻿
+
+Create class Act_of_Shooting, which will inheritates from class Soldier, class Guns.
+
+Where soldier will fire from a gun and reload, and fire one more time.
+
+6)Furniture:
+﻿
+
+Household type, total area and furniture name listThe new house has no furniture at all.
+Furniture has a name and area, of whichBed: 4 square metersWardrobe: 2 square metersTable: 1.5 square meters
+Add the above three pieces of furniture to the house
+When printing a house, output is required: household type, total area, remaining area, furniture name list.
+﻿
+
+7)Students room:
+﻿
+
+﻿
+
+Implement Students room using OOP:
+
+Copy
+Steve = Student("Steven Schultz", 23, "English")
+Johnny = Student("Jonathan Rosenberg", 24, "Biology")
+Penny = Student("Penelope Meramveliotakis", 21, "Physics")
+print(Steve)
+<name: Steven Schultz, age: 23, major: English>
+﻿
+print(Johnny)
+<name: Jonathan Rosenberg, age: 24, major: Biology>
+8)Dollar
+﻿
+
+﻿
+
+Create function dollarize() that takes Float and returns dollarized format:
+
+Copy
+dollarize(123456.78901) -> "$123,456.80"
+dollarize(-123456.7801) -> "-$123,456.78"
+dollarize(1000000) -> "$1,000,000"
+﻿
+
+Convert this function into useful class MoneyFmt. MoneyFmt contains single data value(the amount) and 4 methods.
+
+Copy
+    "init" //constructor initializes the data value
+    "update" //method replaces data value with new one
+    "repr" //methods returns Float value
+    "str" //method, that implements logic of dollarize() method
+﻿
+
+Copy
+//The output will look like this:
+import moneyfmt
+cash = moneyfmt.MoneyFmt(12345678.021)
+print(cash) -- returns "$12,345,678.02"
+cash.update(100000.4567) 
+print(cash) -- returns "$100,000.46"
+cash.update(-0.3)
+print(cash) -- returns "-$0.30"
+repr(cash) -- returns -0.3
+﻿
+
+9)Binary Search tree:
+﻿https://www.getoutline.com/share/66b8b733-3e9b-4c72-938d-403ffa1d9f48﻿
+
+﻿
+
+﻿https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees﻿
+
+﻿
+
+10)Complex Numbers
+﻿https://www.hackerrank.com/challenges/class-1-dealing-with-complex-numbers/problem?h_r=internal-search﻿
+
+﻿
+
+11)Exception Decorator
+﻿https://www.getoutline.com/share/48d8609f-dd80-4796-8a32-a62800abf1cd﻿
+
+﻿
+
+12)Logger Decorator:
+﻿https://www.getoutline.com/share/63c5692f-51bb-4770-8047-566fac38bb95﻿
+
+﻿
+
+13)Recursive digit sum:
+﻿https://www.hackerrank.com/challenges/recursive-digit-sum/problem﻿
+
+﻿
+
+14)Recursion: Davis Staircase(LRU cache)
+﻿https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem﻿
+
+﻿
+
+15)Deck of Cards:
+Create a deck of cards class. Internally, the deck of cards should use another class, a card class. Your requirements are:
+
+The Deck class should have a deal method to deal a single card from the deck
+After a card is dealt, it is removed from the deck.
+There should be a "mix" method which makes sure the deck of cards has all 52 cards and then rearranges them randomly.
+Класс карты должен иметь масть (червы, бубны, трефы, пики) и ценность (A, 2,3,4,5,6,7,8,9,10, J, Q, K)
+NOTE: use random shuffle
+Copy
+from random import shuffle
+﻿
+
+﻿
+
+16) Герой.
+
+﻿
+
+Разработайте программу по следующему описанию.
+
+﻿
+
+В некой игре-стратегии есть солдаты и герои. У всех есть свойство, содержащее уникальный номер объекта, и свойство, в котором хранится принадлежность команде. У солдат есть метод "иду за героем", который в качестве аргумента принимает объект типа "герой". У героев есть метод увеличения собственного уровня.
+
+﻿
+
+В основной ветке программы создается по одному герою для каждой команды. В цикле генерируются объекты-солдаты. Их принадлежность команде определяется случайно. Солдаты разных команд добавляются в разные списки.
+
+﻿
+
+Измеряется длина списков солдат противоборствующих команд и выводится на экран. У героя, принадлежащего команде с более длинным списком, поднимается уровень.
+
+﻿
+
+Отправьте одного из солдат первого героя следовать за ним. Выведите на экран идентификационные номера этих двух юнитов.

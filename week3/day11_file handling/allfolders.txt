@@ -1,0 +1,2 @@
+Desktop/    Downloads/  Pictures/  snap/       Videos/
+Documents/  Music/      Public/    Templates/
