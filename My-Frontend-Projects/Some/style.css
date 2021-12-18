@@ -1,0 +1,237 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+}
+header .logo{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo>img{
+    width: 150px;
+    margin-top: 5%;
+}
+
+header .logo>h3{ 
+    margin-top: 10%;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: normal;
+    color:#0088A2;
+}
+
+.nav{
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #808080;
+}
+
+.nav li{
+    list-style-type: none;
+    width: 100%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 57px;
+}
+
+.nav a:hover{
+    background-color: #0088A2;
+}
+.cards{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.cards .card{
+    width: 28%;
+    position: relative;
+    cursor: pointer;
+}
+
+.cards .card>img{
+    width: 100%;
+}
+
+.cards .card p{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+section{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #808080;
+}
+section h3{
+    text-align: center;
+    color: #0088A2;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 100px;
+}
+
+section .banner{
+    width: 96%;
+    margin: auto;
+    position: relative;
+}
+section .banner>.video{
+    width: 100%;
+    
+}
+section .banner>.play{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    width:75px;
+    cursor: pointer;
+}
+
+.fivecards{
+    display: flex;
+    justify-content: column;
+    width: 70%;
+    margin: 5% auto;
+    /* margin-top: 5%; */
+    height: 400px;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.fivecards .app{
+    width: 25%;
+    position: absolute;
+}
+
+.app:nth-child(2){
+    left: 20%;
+}
+
+.app:nth-child(3){
+    left: 40%;
+}
+
+.app:nth-child(4){
+    left: 60%;
+}
+
+.app:nth-child(5){
+    left: 80%;
+}
+
+.app:nth-child(even){
+    top: 5%; 
+}
+
+section .text{
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #707070; 
+}
+
+section .download{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+section .download img{
+    width: 200px;
+} 
+
+section .download .android{
+    width: 300px;
+}
+
+section .dText{
+    padding-top: 3%;
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #707070;
+}
+
+
+footer{
+    background-color: #0088A2;    
+}
+
+.some{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 35px;
+    color: white;
+}
+
+.info{
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+/* .info2{
+    margin-left: -13%;
+} */
+
+
+
+.img {
+    padding-left: 35%;
+    /* padding-right: */
+    justify-content: space-around; 
+    display: flex; 
+    width: 30%; 
+}
+img{
+    display: block;
+    width: 70px;
+}
+p{
+    margin: 0;
+}
+
+
+
+
+

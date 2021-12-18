@@ -1,0 +1,164 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(images/fonovye\ elementy.png);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background: url(images/frontbanner.jpg) center bottom/cover no-repeat;
+    width: 70.33em; 
+    height: 45em;
+    margin-left: 100px;
+}
+
+.navbar-nav{
+    margin-left: 220px;
+}
+
+.navbar-nav #promo{
+    margin-left: 60px;
+}
+
+.navbar-nav #about{
+    margin-left: 60px;
+}
+
+#contact{
+    margin-left: 270px;
+}
+.navbar-nav #enter{
+    margin-left: 100px;
+}
+
+.logo1 img{
+    position: absolute;
+    top: 10px;
+    width: 45px;
+    left: 650px;
+}
+.enter img{
+    position: absolute;
+    left: 975px;
+    top: 17px;
+}
+.cart img{
+    position: absolute;
+    left: 1140px;
+    top: 17px;
+}
+
+.menueprice button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+
+}
+
+/* .cartorder img{
+    position: absolute;
+    left: 1140px;
+    top: 17px;
+/* } */
+/* .carousel-control-prev {
+    background-image: url(images/arrowleft.png);
+ width: 50px;
+ height: 110px;
+}
+
+.arousel-control-next{
+    background-image: url(/images/arrowright.png);
+
+} */ 
+
+/*******SECTION-1 MENUE*******/
+
+.menuepic{
+    width: 28%;
+    margin-top: 40px;   
+
+}
+
+.menueprice{
+    display: flex;
+    justify-content: space-between;
+
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+.allpics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar-nav a{
+    color: white;
+    /* margin-top: 5%; */
+}
+
+/****************SECTION 2********************/
+
+h2{
+    margin: 8% 0 2% 0;
+    color: white;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutpic img{
+    width: 80%;
+    margin-left: 5%;
+
+}
+
+.section2text{
+    display: block;
+    width: 40%;
+}
+
+/****************SECTION 3********************/
+.section3{
+    margin: 8% 0;
+
+}
+ 
+/****************SECTION-4  FOOTER********************/
+
+.footerinfo{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footertext{
+    margin: 5% 0;
+}
+
+h4{
+    color: white;
+}
+
+.sociallogo{
+    /* justify-content: space-between; */
+    margin: 3% 0;
+    width: 10%;
+}
+
+.sociallogo img{
+    margin: 5px;
+    width: 18%;
+
+}

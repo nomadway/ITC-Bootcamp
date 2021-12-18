@@ -1,0 +1,455 @@
+html, body{
+    margin: 0;
+    padding: 0;
+ 
+
+}
+header{
+    background: url(images/background.jpg) center bottom/cover no-repeat;
+    width: 84.33em;
+    height: 45em;
+
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.header{
+    position: absolute; 
+    font-weight: 600;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+
+}
+
+.phone{
+    display: flex;
+
+}
+
+.number{
+    top: 25px;
+   
+}
+
+.cappadoc img{
+    padding-top: 90px;
+    max-width: 180%;
+    margin-top: 80px;
+    
+}
+
+.exclusive img{
+    max-width: 250px;
+    margin-left: 750px;
+    margin-top: -100px;
+    
+}
+
+/*********FAIRY TALE**********/
+
+.fairy img{
+    margin-top: 130px;
+    margin-left: 200px;
+    max-width: 220px;
+  
+}
+
+.land img{
+    margin-left: 300px;
+    max-width: 200px;
+
+}
+
+.fair1{
+    display: flex;
+}
+
+.fair{
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+
+.text1{
+    display: block;
+    width: 480px;
+    position: relative;
+    margin-top: 55px;
+    font-size: 12px;
+}
+
+/*************OUT TRIP*************/
+
+/*********FAIRY TALE**********/
+
+.trip img{
+    margin-top: 130px;
+    margin-left: 200px;
+    max-width: 220px;
+  
+}
+
+.marsh img{
+    margin-left: 300px;
+    max-width: 200px;
+
+}
+
+.camel img{
+        position: relative;
+        width: 80%;
+        margin-left:400px;
+        margin-top: -620px;
+}
+
+.mapping{
+    display: flex;
+}
+
+.map{
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.text2{
+    display: block;
+    width: 200px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.butt{
+    width: 150px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 2 px solid #E2AB3F;
+  
+}
+
+/*******HOTEL***********/
+
+.hot img{
+    margin-top: 160px;
+    margin-left: 200px;
+    max-width: 220px;
+  
+}
+
+.caves img{
+    margin-left: 300px;
+    max-width: 200px;
+
+}
+
+.hotel3 img{
+    position: relative;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 160px;
+
+}
+
+.section3{
+    display: block;
+    width: 480px;
+    position: relative;
+    margin-top: -560px;
+    margin-left: 650px;
+    font-size: 12px;
+
+}
+
+.hotelbox1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.hotelbox1 img{
+    vertical-align: middle;
+    border-style: none;
+
+}
+
+.hotelbox2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    margin-left: 150px;
+}
+
+
+.price img{
+    margin-top: 130px;
+    margin-left: 200px;
+    max-width: 220px;
+  
+}
+
+.cost img{
+    margin-left: 300px;
+    max-width: 200px;
+
+}
+
+.allservices{
+    display: block;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+.inclusive{
+    width: 35%;
+    position: absolute;
+}
+
+.text4{
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+
+.noninclusive{
+    width: 40%;
+    position: absolute;
+    left: 37%
+
+}
+
+.balloons #large{
+    position: relative;
+    width: 180px;
+    margin-top: -170px;
+    left: 80%
+
+}
+
+.balloons #left{
+    position: relative;
+    width: 70px;
+    margin-top: -7%;
+    left: 40%;
+
+}
+
+.balloons #middle{
+    position: relative;
+    width: 70px;
+    left: 54%;
+    margin-top: 15%;
+
+}
+
+/*****ORDER**********/
+.date img{
+    margin-top: 200px;
+    margin-left: 200px;
+    max-width: 220px;
+  
+}
+
+.near img{
+    margin-left: 300px;
+    max-width: 200px;
+
+}
+
+.four img{
+    margin-top: 10px;
+    margin-left: 280px;
+    max-width: 220px;
+  
+}
+
+.tourcost img{
+    margin-left: 420px;
+    max-width: 200px;
+
+}
+
+.leaveorders img{
+    margin-top: 70px;
+    margin-left: 200px;
+    max-width: 320px;
+  
+}
+
+.ordername{
+    border-color: #E2AB3F;
+    margin-top: 35px;
+    margin-left: 260px;
+}
+
+.ordername input {
+    text-align: center;
+}
+
+.ordersurname{
+    border-color: #E2AB3F;
+    margin-top: 7px;
+    margin-left: 260px;
+}
+
+.ordersurname input {
+    text-align: center;
+}
+
+.orderbutton{
+    /* border: 1px so #E2AB3F; */
+    margin-top: 7px;
+    margin-left: 272px;
+}
+
+.orderpic img{
+    width: 400px;
+    position: relative;
+    left: 650px;
+    margin-top: -450px;
+}
+
+.order{
+    display: flex;
+}
+
+/********FOOTER*********/
+
+footer{
+    background: url(images/footerimage.png)center center/cover no-repeat;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin-top: 100px
+}
+
+.dream1 img{
+    margin-top: 200px;
+    margin-left: 630px;
+    width: 450px;
+
+}
+
+.whitebal img{
+    position: absolute;
+    width: 300px;
+    margin-left: 170px;
+    margin-top: -170px;
+
+}
+
+.footercontacts img{
+    position: absolute;
+    width: 180px;
+    margin-left: 230px;
+    margin-top: -130px;
+
+}
+
+.footernumber{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 240px;
+
+}
+
+.footeremail{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 200px;
+
+}
+
+.footersocial{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 270px;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
